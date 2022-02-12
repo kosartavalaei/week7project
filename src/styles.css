@@ -1,0 +1,78 @@
+.frame {
+  background: linear-gradient(rgb(173, 97, 170), 90%, rgb(232, 209, 235));
+  color: rgb(106, 9, 218);
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 30px;
+  padding: 20px;
+  min-width: 800px;
+  display: inline-block;
+}
+.degree {
+  font-size: 40px;
+}
+ul {
+  list-style: none;
+  padding: 10px;
+  margin-top: 30px;
+}
+li:first-letter {
+  text-transform: capitalize;
+}
+.city {
+  font-size: 35px;
+}
+.container {
+  display: block;
+  margin: 20px auto;
+  max-width: 600px;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  margin-left: 20px;
+  max-width: 700px;
+}
+.current-weather strong {
+  color: gold;
+  font-size: 50px;
+}
+.type-city {
+  background: rgb(177, 134, 173);
+  border: 2px solid rgb(140, 4, 128);
+  border-radius: 15px;
+  text-align: center;
+  color: rgb(53, 19, 177);
+}
+
+.button-search {
+  background: rgb(177, 134, 173);
+  border: 2px solid rgb(148, 9, 102);
+  border-radius: 15px;
+  text-align: center;
+  color: rgb(53, 19, 177);
+}
+#city {
+  font-size: 45px;
+}
+.weather-icon {
+  display: inline-block;
+  text-align: center;
+}
+.current-conditions .active {
+  color: rgb(207, 200, 155);
+  cursor: default;
+  text-decoration: none;
+}
+.current-conditions.active:hover {
+  color: rgb(124, 113, 60);
+  cursor: default;
+  text-decoration: none;
+}
+.current-conditions {
+  color: rgb(238, 228, 173);
+  cursor: default;
+}
+#openSource {
+  display: inline-block;
+}
